@@ -1,5 +1,5 @@
 import React from 'react'
-import { FixedContactList, NavList } from '../constants'
+import { FixedContactList, NavList, siteDescription } from '../constants'
 import Link from 'next/link'
 import LogoImage from './LogoImage'
 
@@ -13,10 +13,8 @@ function Footer() {
             <div className="logo w-full px-8">
                 <LogoImage size={100}/>
                      <p className='text-white mt-8 text-xl text-right px-8'>ترميم في الدمام
-                            ترميم تشققات تعشيش شروخ تصدعات – بأحدث مواد البناء
-                            أهمية عزل اسطح ضد الحرارة والماء الدمام
-                            افضل معلم عوازل بالدمام
-                        مقاول عزل اسطح الدمام – الدمام</p>
+                          {siteDescription}
+                        </p>
             </div>
 
             {/* services and links */}

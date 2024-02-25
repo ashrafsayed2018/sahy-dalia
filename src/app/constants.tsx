@@ -5,6 +5,7 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
+export const siteDescription = 'متخصصين# بجميع انواع الأعمال الصحية# وصيانتها #وتسليك مجارى# وتركيب مضخة# مياه والصرف #وتركيب سخانات مركزى وعادى# تصليح تانكي# وتغسيل توانكي #وتركيب فلاتر مياه مركزى وعادى# لتواصل علي رقم 66723079'
 export const ContactInfo = {
     mobileNumber: '66723079',
     workingTime: "8:00 إلى 11:00",
