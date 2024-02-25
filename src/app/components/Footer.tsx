@@ -12,7 +12,7 @@ function Footer() {
 
             <div className="logo w-full px-8">
                 <LogoImage size={100}/>
-                     <p className='text-white mt-8 text-xl text-right px-8'>ترميم في الدمام
+                     <p className='text-white mt-8 text-xl text-right px-8'> 
                           {siteDescription}
                         </p>
             </div>
